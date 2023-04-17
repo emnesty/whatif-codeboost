@@ -22,7 +22,7 @@ export const HeaderStyle = styled("header", {
     position: "relative",
     paddingLeft: 23,
     "&:before": {
-      content: '',
+      content: "",
       backgroundColor: "$red800",
       boxShadow: "0px 2px 4px rgba(255, 4, 13, 0.16)",
       width: 104,
@@ -30,7 +30,7 @@ export const HeaderStyle = styled("header", {
       position: "absolute",
       bottom: -28,
       left: 23,
-    }
+    },
   },
   ".code": {
     display: "flex",
@@ -38,5 +38,5 @@ export const HeaderStyle = styled("header", {
     height: "100%",
     padding: "0 23px",
     borderLeft: "1px solid rgba(255, 255, 255, 0.2)",
-  }
+  },
 })
