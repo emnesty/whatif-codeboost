@@ -1,4 +1,4 @@
-import { globalCss, styled } from "./index"
+import { globalCss, styled } from "./index";
 
 export const globalStyles = globalCss({
   "*": {
@@ -22,10 +22,13 @@ export const globalStyles = globalCss({
   button: {
     cursor: "pointer",
   },
-})
+  a: {
+    textDecoration: "none",
+  },
+});
 
 export const Container = styled("div", {
   width: "100%",
   maxWidth: 1216,
   margin: "0 auto",
-})
+});
